@@ -526,9 +526,9 @@ test_that("plot_all_convex_hulls works",
         expect_equal(hash_raw_md5(bitmap_global_compact), "527266397dd2e18e353bed95e0556779")
       },
       "Darwin" = {
-        expect_equal(hash_raw_md5(bitmap_batch), "9ad7981faf2205cd5ce1752027f8d2f5")
-        expect_equal(hash_raw_md5(bitmap_global), "249def7d2a3066c226ebf242e0c51e70")
-        expect_equal(hash_raw_md5(bitmap_global_compact), "249def7d2a3066c226ebf242e0c51e70")
+        expect_equal(hash_raw_md5(bitmap_batch), "be3d7e0a9451f544d6f866efacb2760a")
+        expect_equal(hash_raw_md5(bitmap_global), "4985aeb92348eebfa8d6abf8afc13a5c")
+        expect_equal(hash_raw_md5(bitmap_global_compact), "d3fce252e5298a79acea182df6ee9859")
       }
     )
 
@@ -600,8 +600,8 @@ test_that("shared_single_plot_convex_hulls works",
         expect_equal(hash_raw_md5(bitmap_compact), "87e969ae7cca900f21a99af6ede0fbe7")
       },
       "Darwin" = {
-        expect_equal(hash_raw_md5(bitmap), "1a3a40c699529a6016d9110d62e4e658")
-        expect_equal(hash_raw_md5(bitmap_compact), "249def7d2a3066c226ebf242e0c51e70")
+        expect_equal(hash_raw_md5(bitmap), "96b1eec4c92c172d0deb34c32eb1b195")
+        expect_equal(hash_raw_md5(bitmap_compact), "1d0edf3fc00a48a75e316a7697e8f273")
       }
     )
 

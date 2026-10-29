@@ -29,7 +29,7 @@ Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
 Collate: convex_function.R icm_function.R
 NeedsCompilation: no
-Packaged: 2026-10-29 15:26:22 UTC; ejules
+Packaged: 2026-10-29 15:47:31 UTC; ejules
 Author: Brice Mulot [aut],
   Elfried Salanon [ctb],
   Etienne Jules [aut, cre],
